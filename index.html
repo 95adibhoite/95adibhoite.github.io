@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Aditya Bhoite-Portfolio</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="" class="link"
+          >AB.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+  <div class="about center">
+  <img src="Adi.jpg" alt="Aditya Bhoite" class="about__image">
+
+  <h1 style="margin-top: 10px;">Hi, I am <span class="about__name">Aditya Bhoite.</span></h1>
+  <h2 class="about__role">A Fullstack Web Developer.</h2>
+  <p class="about__desc">
+    Hello there! My name is Aditya Bhoite, and I am a passionate developer currently studying at St. Clair College.
+    I have a deep love for technology and a strong desire to create innovative solutions that can positively impact people's lives. 
+    I'm excited to take on new challenges, gain knowledge from my mistakes, and offer valuable contributions as I evolve as a developer. 
+    I'm constantly ready to explore new ideas and push the limits of what I am capable of, and my curiosity motivates me to keep up with the most recent trends and technological breakthroughs in the business.
+    I really think that technology has the potential to change the world, and I'm dedicated to sharing my knowledge and experience in order to contribute to this fast-paced digital era by having a constructive influence.
+  </p>
+</div>
+
+        <div class="about__contact center">
+          <a href="https://example.com">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/rajshekhar26"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/rajshekhar26"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+      
+        <div class="projects__grid">
+          <div class="project">
+            <img src="Project_1.png" alt="Project 1" class="project__image">
+            <h3>Project 1</h3>
+            <p class="project__description">
+              This is a project that I created for Mr. John Lin, a successful businessman in the footwear sector.
+              It's a footwear site that offers a business assortment of shoes with multi-brand. The client was fulfilled by my work.
+              All in all, the project delivered a user-friendly, visually appealing, and easy-to-navigate platform that meets the client's goals and positions them for success in the online footwear market.
+            </p>
+          </div>
+      
+          <div class="project">
+            <img src="Project_2.png" alt="Project 2" class="project__image">
+            <h3>Project 2</h3>
+            <p class="project__description">
+              The Speed Trap Program is a C# application designed to monitor and record vehicle speeds on roadways.
+              Its purpose is to help enforce speed limits and promote road safety by identifying and capturing vehicles that exceed the designated speed thresholds.
+              The SpeedTrap Program is a uniquely fabricated application created in C# to address the particular requirements of our client. 
+              The client mentioned a strong and productive answer for monitoring and upholding speed limits on streets to improve road security and guarantee compliance with speed guidelines.
+              Real-Time Speed Detection: The client required a system capable of real-time speed detection to monitor vehicles passing through designated areas.
+              Integration with Existing Systems: The client required seamless integration with existing traffic management systems for a holistic approach to road safety.
+            </p>
+          </div>
+      
+          <div class="project">
+            <img src="Project_3.png" alt="Project 3" class="project__image">
+            <h3>Project 3</h3>
+            <p class="project__description">
+              Welcome to my Pacman game, a classic arcade-inspired creation developed entirely in Python! As a passionate programmer and a fan of retro gaming, I couldn't resist the opportunity to bring this iconic title to life in a modern context.
+              Inspired by the timeless 1980s Pacman arcade game, my Python rendition aims to capture the essence of the original while incorporating some exciting twists and enhancements.
+              The game follows the adventures of Pacman, a voracious character on a mission to gobble up pellets while evading colorful ghosts that relentlessly pursue him.
+              Tech Stack My Pacman game is entirely written in Python, leveraging the simplicity and versatility of the language.
+              I've utilized Pygame, a popular Python library for game development, to handle graphics, animation, and sound components seamlessly.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">SCSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Angular</li>
+          <li class="skills__list-item btn btn--plain">Laravel Bootsrap</li>
+          <li class="skills__list-item btn btn--plain">.NET</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">C#</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">AWS cloud</li>
+          
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:95adibhoite@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rajshekhar26/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Created By Aditya Bhoite
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
